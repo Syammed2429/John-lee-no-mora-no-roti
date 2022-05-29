@@ -1,5 +1,5 @@
 import './App.css';
-import { Text, Image } from '@chakra-ui/react'
+import { Text, Image, Button, Box } from '@chakra-ui/react'
 import john from './assets/john lee.webp'
 function App() {
   return (
@@ -9,6 +9,10 @@ function App() {
         <Text>Website is coming soon</Text>
         <Image src={john} boxSize='20vw'
           objectFit='cover' />
+        <Box m={4}>
+          <Button colorScheme='teal'>Donate us Mora</Button>
+
+        </Box>
 
       </header>
     </div>
